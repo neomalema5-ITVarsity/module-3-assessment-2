@@ -1,0 +1,224 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: sans-serif;
+    
+    margin: 0;
+    padding: 0;
+    
+    height: 100%;
+}
+
+.body-home {
+    background-image: url("images/background2png.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-meals {
+    background-image: url("images/wood-background.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*==========HOME PAGE==========*/
+
+#home-logo-img {
+    width: 180px;
+    display: block;
+    margin: auto;
+    padding: 25px 10px 10px 10px;
+}
+
+#home-logo-text {
+    width: 300px;
+    display: block;
+    margin: auto;
+    padding: 25px;
+}
+
+/*======HOME PAGE MENU=====*/
+.home-menu-item {
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid white;
+    
+    display: block;
+    margin: auto; 
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+/*==========HEADER==========*/
+.header {
+    background-color: white;
+    width: 100%;
+    height: 50px; 
+    top: 0;
+    
+    position: fixed;
+    overflow: hidden;
+    
+    text-align: center;
+}
+
+.header i {
+    float: left;
+    color: purple;
+    padding: 17px 0px 0px 17px; 
+}
+
+.header h2 {
+    color: white;
+    padding-top: 0;
+}
+
+.header img {
+    width: 120px;
+    padding-top: 2px;
+    padding-right: 10px;
+}
+
+/*=============MEALS PAGE============*/
+
+#meals {
+    padding-top: 50px;
+}
+
+/*==========MEALS PAGE MENU==========*/
+
+.meals-list h3 {
+    color: white;
+}
+.meals-list p {
+    color: white;
+}
+
+.meals-list a {
+    text-decoration: none;
+}
+
+.meals-list h2{
+    color: white;
+            
+    }
+.meals-list imput {
+    color: white;
+}
+
+.meals-list img {
+    width: 100%;
+}
+.meals-list-extras label {
+    color: white;
+    margin-left: 20px;
+    line-height: 25px;
+}
+
+.meals-list-item {
+    border: 5px solid white;
+    margin: 10px;
+}
+
+.meals-list-item h1 {
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding-left: 10px;
+    
+}
+
+.meals-list-item i {
+    float: right;
+    color: white;
+    padding-right: 20px;
+}
+
+.meals-list-item p {
+    font-size:15px;
+    font-style: italic;
+    color: whitesmoke;
+    margin-top: -7px;
+    padding-left: 10PX;
+}
+
+/*===========FOOD ITEMS==========*/
+
+/*=====FOOD DETAILS=====*/
+.cheese-toast img{
+    width: 100%;
+}
+
+/*=========== FORM ===========*/
+
+input {
+    width: 100%;
+    height: 25px;
+    margin: 12px 10px;
+    border: 1px soilid #929292;
+    
+}
+
+textarea {
+    width: 100%;
+    height: 65px;
+    margin: 12px 10px;
+    border: 1px solid #929292;
+}
+
+.button {
+    display: block;
+    width: 100%
+    background-color: navy;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 1000;
+    margin: 12px 0;
+    padding: 8px 0;
+    color: white;
+}
+
+label {
+    color: white;
+}
+
+/*===========RESPONSIVE LAYOUT==========*/
+
+@media only screen and (min-width:600px){
+    #meals {
+        width: 80%
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width:1000px){
+    #meals {
+        width: 60%
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width:1500px){
+    #meals {
+        width: 40%
+        margin: auto;
+    }
+}
+
+
+
+
+
+
